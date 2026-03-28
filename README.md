@@ -22,15 +22,18 @@ Custom Q&A Data → Tokenization → GPT-2 Fine-tuning → Saved Model → Strea
 - Clean chat interface with history
 - Modular train/inference separation
 
+-----
 ## Project Structure
 
-FineTuned_LLM_Chatbot/
+FineTuned_LLM_Chatbot
 |-------------------|------------------------------|
-├── train.py          ← Fine-tuning pipeline
-├── inference.py      ← Model loading & generation
-├── app.py            ← Streamlit chat UI
-├── requirements.txt
-└── README.md
+├── train.py        | ← Fine-tuning pipeline|
+├── inference.py    | ← Model loading & generation|
+├── app.py          | ← Streamlit chat UI|
+├── requirements.txt|       -|
+└── README.md       |       -|
+
+-----
 
 
 ## How to Run
