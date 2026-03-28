@@ -5,7 +5,6 @@ from inference import load_model, generate_response
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="MindForge — Fine-tuned LLM",
-    page_icon="⚡",
     layout="centered"
 )
 
@@ -111,7 +110,7 @@ hr { border-color: #1A2A3A !important; }
 """, unsafe_allow_html=True)
 
 # ── Header ─────────────────────────────────────────────────────────────────────
-st.markdown('<div class="hero">⚡ MindForge</div>', unsafe_allow_html=True)
+st.markdown('<div class="hero"> MindForge</div>', unsafe_allow_html=True)
 st.markdown('<div class="hero-sub">FINE-TUNED GPT-2 · HUGGINGFACE TRANSFORMERS · CUSTOM Q&A</div>', unsafe_allow_html=True)
 
 st.markdown("""
