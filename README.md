@@ -25,15 +25,14 @@ Custom Q&A Data → Tokenization → GPT-2 Fine-tuning → Saved Model → Strea
 -----
 ## Project Structure
 
-FineTuned_LLM_Chatbot
-|-------------------|------------------------------|
-├── train.py        | ← Fine-tuning pipeline|
-├── inference.py    | ← Model loading & generation|
-├── app.py          | ← Streamlit chat UI|
-├── requirements.txt|       -|
-└── README.md       |       -|
-
------
+```
+FineTuned_LLM_Chatbot/
+├── train.py          ← Fine-tuning pipeline
+├── inference.py      ← Model loading & generation
+├── app.py            ← Streamlit chat UI
+├── requirements.txt
+└── README.md
+```
 
 
 ## How to Run
