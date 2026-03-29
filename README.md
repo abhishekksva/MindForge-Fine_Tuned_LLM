@@ -69,4 +69,4 @@ streamlit run app.py
 The trained model (`saved_summary_model/`) is not included in this repo due to large file size. You need to train it first or download from HuggingFace Hub.
 
 ## Live Demo
-[Streamlit App Link]
+https://abhishekksva-mindforge-fine-tuned-llm-app-szyrng.streamlit.app/
