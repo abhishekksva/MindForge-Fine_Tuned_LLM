@@ -64,5 +64,9 @@ streamlit run app.py
 - Implemented complete pipeline: data prep → tokenization → Trainer API → model saving → inference
 - Deployed interactive chatbot on Streamlit with adjustable generation parameters
 
+
+## Please Note:
+The trained model (`saved_summary_model/`) is not included in this repo due to large file size. You need to train it first or download from HuggingFace Hub.
+
 ## Live Demo
 [Streamlit App Link]
